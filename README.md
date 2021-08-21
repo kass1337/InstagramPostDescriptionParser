@@ -1,8 +1,8 @@
 # Instagram Post Description Parser
-A simple parser for instagram. It takes the first comment from all posts of users list. Good for ML as data.
+A simple parser for instagram. It takes the first comment from all posts of users list. As example parsed text is good for ML.
 # Requirements
 * Instagram account
 * List of non-private accounts in .txt file
-* Chrome driver for selenium
+* Chrome driver for selenium in the same directory
 # Used features
 * [Selenium](https://selenium-python.readthedocs.io/)
