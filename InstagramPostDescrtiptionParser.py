@@ -7,9 +7,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import io
 
-
-ENTER = u'\ue007'
-ESCAPE = u'\ue00c'
 default_wait_time = 15
 
 
@@ -59,7 +56,7 @@ except selenium.common.exceptions.TimeoutException:
 try:
     not_now_button = WebDriverWait(driver, login_wait_time).until(
         EC.presence_of_element_located((By.XPATH, "//button[1 and text() = 'Not Now']")))
-    not_now_button.click() # there are might be two pop-up messages with not now button
+    not_now_button.click()  # there are might be two pop-up messages with not now button
 except selenium.common.exceptions.TimeoutException:
     pass
 for name in names:
