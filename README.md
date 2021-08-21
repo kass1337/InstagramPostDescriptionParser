@@ -3,5 +3,6 @@ A simple parser for instagram. It takes the first comment from all posts of user
 # Requirements
 * Instagram account
 * List of non-private accounts in .txt file
+* Chrome driver for selenium
 # Used features
 * [Selenium](https://selenium-python.readthedocs.io/)
